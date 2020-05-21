@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:padding="5dp"
+    android:background="@drawable/bgapp"
+    android:layout_height="match_parent"
+    tools:context="ng.com.techsoft.unitrivia.AboutActivity">
+
+    <TextView
+        android:id="@+id/text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:text="UNITRIVIA"
+        android:textColor="@android:color/black"
+        android:textSize="35sp" />
+
+    <TextView
+        android:id="@+id/text_view_highscore"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/text_view"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="32dp"
+        android:autoLink="email"
+        android:text="If you have any issues or bugs to report or would like to suggest features to be added to the game then please contact us on \n\n\n Email : olamide@techsoft.com.ng
+        dogbaola776@gmail.com
+        techsoft002@gmail.com\n\ntwitter: @techsoft14\nfacebook: Techsoft14
+     +234706687933\n\nThank you for playing UNITRIVIA."
+        android:textSize="17sp"
+        android:textStyle="bold"/>
+    <TextView
+        android:id="@+id/web"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/text_view_highscore"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="32dp"
+        android:autoLink="web"
+        android:text="www.techsoft.com.ng\ntechsoftacademy.blogspot.com"
+        android:textSize="15sp"
+        android:textStyle="bold"/>
+</RelativeLayout>
